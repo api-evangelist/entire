@@ -1,0 +1,63 @@
+generated: '2026-07-19'
+method: searched
+source: https://entire.io/blog (Entire Dispatch release-notes series) + https://entire.io/news
+scheme: semver
+current_version: v0.8.42  # Entire CLI (pkg.go.dev)
+note: >-
+  Entire publishes dated release notes as the weekly "Entire Dispatch" blog series
+  plus product news. No dedicated /changelog page exists; the Dispatch series is the
+  authoritative dated log. Recent window only.
+entries:
+- date: '2026-07-15'
+  title: Introducing Ref-Based Checkpoint Storage
+  breaking: false
+  highlights: Checkpoints get their own Git refs for faster, lighter pushes and reads as agent history grows.
+- date: '2026-07-14'
+  title: 'Introducing entire agent-help'
+  breaking: false
+  highlights: New always-current CLI map for coding agents to reduce command-discovery token spend.
+- date: '2026-07-13'
+  version: dispatch-0x0015
+  breaking: false
+  highlights: Distributed Git network launches in preview alongside ForgeMark (open-source push benchmark) and faster checkpoint storage.
+- date: '2026-06-29'
+  version: dispatch-0x0014
+  breaking: false
+  highlights: Git Protocol v2 support in go-git, older-session imports in the CLI, Entire-specific tool-call filtering on entire.io.
+- date: '2026-06-22'
+  version: dispatch-0x0013
+  cli_version: 0.7.7
+  breaking: false
+  highlights: Goose support and safer session workflows; git-sync 0.7.0 reliability.
+- date: '2026-06-15'
+  version: dispatch-0x0012
+  cli_version: 0.7.6
+  breaking: false
+  highlights: Experimental code-provenance commands; Entire Web reliability fixes.
+- date: '2026-06-08'
+  version: dispatch-0x0011
+  cli_version: 0.7.5
+  breaking: false
+  highlights: Smoother auth and richer agent sessions; git-sync and go-git fixes.
+- date: '2026-06-01'
+  version: dispatch-0x0010
+  breaking: false
+  highlights: Clearer onboarding on Entire Web; smoother CLI auth and session reliability.
+- date: '2026-05-18'
+  version: dispatch-0x000E
+  breaking: false
+  highlights: Pi built into the CLI; Amp joins external agents; custom redaction rules; git-sync 0.5.0.
+- date: '2026-05-11'
+  version: dispatch-0x000D
+  breaking: false
+  highlights: Private session sharing, transcript deep links, CLI recap/review commands; go-git security releases.
+- date: '2026-07-08'
+  kind: news
+  title: Entire Launches Distributed Git Network for the Agent Era
+  breaking: false
+  highlights: Public preview of the fast, independent Git-mirroring network for agent-scale cloning.
+- date: '2026-02-10'
+  kind: news
+  title: Entire launches with $60M seed round
+  breaking: false
+  highlights: Former GitHub CEO Thomas Dohmke launches Entire; first product Checkpoints ships.

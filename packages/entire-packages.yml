@@ -1,0 +1,58 @@
+generated: '2026-07-19'
+method: searched
+source: https://github.com/entireio + https://entire.io/install.sh + pkg.go.dev
+note: >-
+  Entire ships no REST-API client SDKs (the platform exposes no public REST API);
+  its first-party distributables are the Entire CLI and related open-source Git
+  tooling. Captured here as Packages, not SDKs.
+packages:
+- language: go
+  registry: homebrew
+  name: entire
+  url: https://github.com/entireio/homebrew-tap
+  install: brew install --cask entire
+  official: true
+  description: Entire CLI (recommended install) via the entireio Homebrew tap.
+- language: go
+  registry: shell-installer
+  name: entire
+  url: https://entire.io/install.sh
+  install: curl -fsSL https://entire.io/install.sh | bash
+  official: true
+  description: Cross-platform install script for the Entire CLI.
+- language: go
+  registry: scoop
+  name: entire/cli
+  url: https://github.com/entireio/cli
+  install: scoop install entire/cli
+  official: true
+  description: Windows install of the Entire CLI via Scoop.
+- language: go
+  registry: pkg.go.dev
+  name: github.com/entireio/cli
+  url: https://pkg.go.dev/github.com/entireio/cli
+  install: go install github.com/entireio/cli/cmd/entire@latest
+  official: true
+  version: v0.8.42
+  description: Entire CLI Go module (MIT).
+- language: javascript
+  registry: github
+  name: '@entireio/skills'
+  url: https://github.com/entireio/skills
+  install: npx skills add https://github.com/entireio/skills --all
+  official: true
+  description: Cross-agent Entire Skills (installed via the skills CLI, not published to npm).
+- language: go
+  registry: github
+  name: git-sync
+  url: https://github.com/entireio/git-sync
+  install: see repo README
+  official: true
+  description: Open-source tool to mirror Git refs between remotes without a local checkout (MIT).
+- language: go
+  registry: github
+  name: forgemark
+  url: https://github.com/entireio/forgemark
+  install: see repo README
+  official: true
+  description: Concurrent git-push throughput benchmark for smart-HTTP Git forges.

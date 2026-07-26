@@ -1,0 +1,68 @@
+generated: '2026-07-19'
+method: searched
+source: https://github.com/entireio/cli + https://docs.entire.io/
+name: Entire CLI
+description: >-
+  First-party Go CLI that hooks into your Git workflow to capture AI coding-agent
+  sessions (prompts, tool calls, decisions) as Checkpoints indexed alongside commits,
+  creating a searchable record of how code was written.
+repository: https://github.com/entireio/cli
+docs: https://docs.entire.io/
+reference: https://docs.entire.io/  # CLI Reference under Resources
+license: MIT
+current_version: v0.8.42
+language: go
+binary: entire
+install:
+- method: homebrew
+  command: brew install --cask entire
+  note: recommended; via entireio/homebrew-tap
+- method: shell
+  command: curl -fsSL https://entire.io/install.sh | bash
+- method: scoop
+  command: scoop install entire/cli
+  note: Windows
+- method: go
+  command: go install github.com/entireio/cli/cmd/entire@latest
+- method: devcontainer
+  note: available as a devcontainer feature (github.com/entireio/devcontainer-features)
+auth:
+  command: entire login
+  method: device authorization flow
+  token_env: ENTIRE_TOKEN
+  token_storage: [os-keyring, file-backed store, environment variable]
+commands:
+- name: agent
+  summary: Manage AI agent integrations (plugins for Claude, Codex, Copilot CLI, Gemini, Goose, Cursor, etc.).
+- name: agent-help
+  summary: Always-current map of the Entire CLI surfaced for coding agents.
+- name: checkpoint
+  summary: Manage git-native Checkpoints (code snapshots paired with agent sessions).
+- name: session
+  summary: View, share, and resume captured AI agent sessions.
+- name: blame
+  summary: Trace file lines back to the Checkpoints and sessions behind them.
+- name: recap
+  summary: Summarize recent agent activity.
+- name: review
+  summary: Run review skills against the current branch using Checkpoint transcripts.
+- name: org
+  summary: Manage organizations.
+- name: project
+  summary: Manage projects.
+- name: repo
+  summary: Manage repositories.
+- name: configure
+  summary: Adjust CLI settings.
+- name: enable
+  summary: Turn Entire capture on for a repo.
+- name: disable
+  summary: Turn Entire capture off for a repo.
+- name: login
+  summary: Authenticate the CLI with Entire device auth.
+- name: status
+  summary: Show current capture/auth state.
+- name: doctor
+  summary: Diagnose and troubleshoot the local setup.
+- name: clean
+  summary: Remove orphaned Checkpoint/session data.

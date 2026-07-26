@@ -1,8 +1,28 @@
 aid: entire
 name: Entire
-description: Entire is a company surfaced as a portfolio company of felicis and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Entire is a developer platform built for both humans and AI agents, founded by
+  former GitHub CEO Thomas Dohmke and launched with a $60M seed round. It pairs fast,
+  distributed, Git-compatible hosting with agent session management: the Entire CLI
+  hooks into your Git workflow and captures every coding-agent session — prompts, tool
+  calls, and decisions — as Checkpoints indexed alongside commits, creating a searchable
+  record of how code was written. Features include session-to-commit pairing, secret
+  detection and user-defined redaction, multi-agent parallel review, cross-agent work
+  resumption, and a distributed Git mirroring network for fast, rate-limit-free clones.
 url: https://raw.githubusercontent.com/api-evangelist/entire/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://entire.io/favicon.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +31,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Developer Tools
+- Developer Platform
+- Git
+- Git Hosting
+- Version Control
+- Source Control
+- AI Agents
+- Agent Infrastructure
+- CLI
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,50 @@ maintainers:
 common:
 - type: Website
   url: https://entire.io
+- type: DeveloperPortal
+  url: https://docs.entire.io/
+- type: Documentation
+  url: https://docs.entire.io/
+- type: GettingStarted
+  url: https://docs.entire.io/quickstart
+- type: GitHubOrganization
+  url: https://github.com/entireio
+- type: Blog
+  url: https://entire.io/blog
+- type: SignUp
+  url: https://entire.io/login
+- type: TermsOfService
+  url: https://entire.io/terms
+- type: PrivacyPolicy
+  url: https://entire.io/privacy
+- type: Compliance
+  url: https://entire.io/dpa
+- type: LLMsTxt
+  url: llms/entire-llms.txt
+- type: WellKnown
+  url: well-known/entire-well-known.yml
+- type: SecurityTxt
+  url: well-known/entire-security.txt
+- type: Security
+  url: https://entire.io/.well-known/security.txt
+- type: VulnerabilityDisclosure
+  url: security/entire-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/entire-domain-security.yml
+- type: Conformance
+  url: conformance/entire-conformance.yml
+- type: Authentication
+  url: authentication/entire-authentication.yml
+- type: Packages
+  url: packages/entire-packages.yml
+- type: CLI
+  url: cli/entire-cli.yml
+- type: AgentSkill
+  url: skills/_index.yml
+- type: ChangeLog
+  url: changelog/entire-changelog.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

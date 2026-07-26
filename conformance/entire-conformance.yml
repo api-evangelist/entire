@@ -1,0 +1,29 @@
+generated: '2026-07-19'
+method: searched
+source: >-
+  https://entire.io/privacy , https://entire.io/dpa , https://entire.io/subprocessors ,
+  https://docs.entire.io/ (Security and privacy)
+note: >-
+  Entire publishes no security certifications (no SOC 2 / ISO 27001 / PCI / HIPAA /
+  FedRAMP claims were found). It does publish a data-protection compliance program:
+  a GDPR/UK-GDPR + CCPA-aware Privacy Policy, a Data Processing Agreement, and a
+  Subprocessor List. Standards below are data-protection regimes the published
+  documents address, not audited certifications.
+standards:
+- id: gdpr
+  conforms: true
+  evidence: Privacy Policy section 10 (GDPR) + Data Processing Agreement addressing EU/UK GDPR.
+- id: uk-gdpr
+  conforms: true
+  evidence: Privacy Policy section 10 covers UK GDPR alongside EU GDPR.
+- id: ccpa
+  conforms: true
+  evidence: Privacy Policy references California CCPA personal-information handling.
+- id: soc2
+  conforms: false
+- id: iso-27001
+  conforms: false
+- id: pci-dss
+  conforms: false
+- id: hipaa
+  conforms: false

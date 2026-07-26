@@ -1,0 +1,32 @@
+generated: '2026-07-19'
+method: searched
+source: https://github.com/entireio/skills
+note: >-
+  Provider-published cross-agent Agent Skills (not pipeline-generated). Installed
+  via the skills CLI: `npx skills add https://github.com/entireio/skills --all`,
+  or one at a time with `--skill <name>`. These help coding agents use Entire
+  context (Checkpoints, sessions, git history). No OpenAPI exists to ground
+  operationId-level steps; the published skills are the authoritative surface.
+install_all: npx skills add https://github.com/entireio/skills --all
+skills:
+- name: search
+  file: entire-published-skills.md
+  description: Finds prior work in Entire history by topic, repo, branch, author, or time window.
+- name: explain
+  file: entire-published-skills.md
+  description: Looks up the session behind a function, file, or line to explain requirements and decisions.
+- name: what-happened
+  file: entire-published-skills.md
+  description: Traces the latest change to a file line or range using git blame and Checkpoint context.
+- name: session-handoff
+  file: entire-published-skills.md
+  description: Reads saved or active session context so another agent can pick up task state.
+- name: review
+  file: entire-published-skills.md
+  description: Reviews code changes on the current branch using checkpoint transcripts to understand developer intent.
+- name: using-entire
+  file: entire-published-skills.md
+  description: Orchestrator skill that routes user intent to the appropriate Entire sub-skills.
+- name: session-crosslink
+  file: entire-published-skills.md
+  description: Links agent sessions that ran outside the repo to affected Entire-enabled repos' HEAD commits.

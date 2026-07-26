@@ -1,0 +1,70 @@
+# Entire
+
+> The world's next developer platform, where agents and humans can collaborate, learn and ship together.
+
+Entire builds the assembly line for the era of AI agents. Our platform unifies version control, semantic reasoning, and an AI-native software development lifecycle.
+
+## Documentation
+
+- [Entire Brand Guidelines](https://entire.io/brand.md): Resources to represent Entire consistently and accurately.
+- [Company](https://entire.io/company.md): Entire is a globally distributed, remote-first team with one clear mission: to build the world's next developer platform where humans and agents collaborate, learn, and ship together. We operate just as we believe the future of the interconnected developer community will work, with developers coming together across geographies to turn our biggest ideas, empowered by fleets of agents and shared context, into reality faster than was ever possible in the old days. This is the Entire way.
+- [Entire · Developer platform for humans and agents](https://entire.io/home.md): Fast, distributed, independent Git hosting for agents and humans.
+- [Vision](https://entire.io/vision.md): The world's next developer platform, where agents and humans can collaborate, learn and ship together.
+
+## Blog
+
+- [Blog](https://entire.io/blog.md): All published Entire blog posts, newest first.
+- [Introducing Ref-Based Checkpoint Storage](https://entire.io/blog/introducing-ref-based-checkpoint-storage.md): Give checkpoints their own Git refs for faster, lighter pushes and reads as your agent history grows.
+- [Introducing entire agent-help: Entire CLI Guidance Built for Agents](https://entire.io/blog/introducing-entire-agent-help.md): Give coding agents an always-current map of the Entire CLI, reducing tokens spent on command discovery, retries, and unnecessary questions.
+- [Entire Dispatch 0x0015](https://entire.io/blog/entire-dispatch-0x0015.md): Entire's distributed Git network launches in preview alongside ForgeMark, an open source Git push benchmark for agent-scale concurrency, and faster checkpoint storage.
+- [An Entirely New Git Hosting Network](https://entire.io/blog/an-entirely-new-git-hosting-network.md): Entire is a fast, distributed, Git-compatible network for mirroring GitHub repositories so agents can clone fast without hitting origin rate limits.
+- [How Version Control Will Evolve for the Agent Boom](https://entire.io/blog/how-version-control-will-evolve-for-the-agent-boom.md): To meet the demand of the agent boom, Git hosting must return to its original promise: a distributed network of many hosts.
+- [Introducing entire blame](https://entire.io/blog/introducing-entire-blame.md): entire blame lets you trace file lines back to checkpoints and sessions so you can find the context behind agent-assisted code changes faster.
+- [Entire Dispatch 0x0014](https://entire.io/blog/entire-dispatch-0x0014.md): Git Protocol v2 support lands in go-git, older-session imports arrive in Entire CLI, and Entire-specific tool-call filtering comes to entire.io.
+- [Goose Support Is Now Available in Entire](https://entire.io/blog/goose-support-is-now-available-in-entire.md): Capture Goose session history alongside repository history, preserving prompts, responses, file changes, tool results, and context behind the work.
+- [Entire Dispatch 0x0013](https://entire.io/blog/entire-dispatch-0x0013.md): Entire CLI 0.7.7 adds Goose support and safer session workflows, while Entire Web improves attribution and git-sync 0.7.0 makes transfers more reliable.
+- [Entire Dispatch 0x0012](https://entire.io/blog/entire-dispatch-0x0012.md): Tokyo summit week brought Entire CLI 0.7.6 with new experimental commands for code provenance plus Entire Web reliability fixes.
+- [Entire Dispatch 0x0011](https://entire.io/blog/entire-dispatch-0x0011.md): Entire CLI 0.7.5 makes auth smoother and agent sessions richer, while Entire Web, git-sync, and go-git pick up transcript, credential, and filesystem reliability fixes.
+- [Entire Dispatch 0x0010](https://entire.io/blog/entire-dispatch-0x0010.md): Clearer onboarding for new users lands in Entire Web, with smoother CLI authentication and improved session reliability.
+- [Introducing SSH Remote Mirroring in git-sync](https://entire.io/blog/ssh-remote-mirroring-for-git-sync.md): Mirror repositories over SSH using the Git remote URLs, keys, host aliases, and local SSH setup you already trust.
+- [Entire Dispatch 0x000F](https://entire.io/blog/entire-dispatch-0x000f.md): Session display names arrive on Entire Web, accessibility and commit sync improve, CLI nightly login gets smoother, and go-git hardens parser and filesystem behavior.
+- [Pi Is Now Built Into the Entire CLI](https://entire.io/blog/pi-is-now-built-into-the-entire-cli.md): Pi is now built into the Entire CLI, giving users a more direct path to captured sessions, checkpoints, and history.
+- [Introducing User-Defined Redaction](https://entire.io/blog/introducing-user-defined-redaction.md): Keep secrets, PII, and sensitive project context out of saved agent sessions with custom redaction rules.
+- [Entire Dispatch 0x000E](https://entire.io/blog/entire-dispatch-0x000e.md): Pi graduates to built-in Entire CLI support, Amp joins external agents, custom redaction rules arrive, commit sessions get clearer, and git-sync 0.5.0 improves mirroring.
+- [Entire Dispatch 0x000D](https://entire.io/blog/entire-dispatch-0x000d.md): Private session sharing, transcript deep links, CLI recap and review commands, faster git-sync, and go-git security releases.
+- [Bring Structure to Your Agent Workflows](https://entire.io/blog/new-cli-commands-recap-review-labs.md): Three new commands in the Entire CLI — summarize agent activity, run review skills against your branch, and explore experimental workflows.
+- [How We Improved Agentic Search](https://entire.io/blog/improving-agentic-search-in-coding-agents.md): We studied real coding-agent traces, benchmarked how agents use search, and built pgr to improve what agents see first and what they do next.
+- [Bring Your Entire Context to Your Agents with Skills](https://entire.io/blog/bring-your-entire-context-to-your-agents-with-skills.md): Entire Skills make the context behind your code changes easier for your coding agent to search, explain, hand off, and reuse.
+- [Entire Dispatch 0x000C](https://entire.io/blog/entire-dispatch-0x000c.md): Dispatches land on Entire Web, git-sync goes open source and escapes into the wild, and the CLI and Go-Git get sharper around the edges.
+- [How to Kill Manual Slide Creation with Entire](https://entire.io/blog/how-to-kill-manual-slide-creation-with-entire.md): You don't need to create presentation decks by hand anymore. Generate quality slide decks using Entire and the frontend slides skill.
+- [How the Sentiment-Maxxers Mogged their Way To Hackathon Glory With Entire](https://entire.io/blog/how-the-sentiment-maxxers-mogged-their-way-to-hackathon-glory-with-entire.md): How the Sentiment-Maxxers used Entire to preserve agent context, audit AI-generated code, and win our hackathon challenge at the Big Berlin Hack.
+- [Entire Dispatch 0x000B](https://entire.io/blog/entire-dispatch-0x000b.md): 30-day activity views, Checkpoint-based dispatch summaries, a new sessions overview page, and go-git archive support.
+- [Entire Dispatch 0x000A](https://entire.io/blog/entire-dispatch-0x000a.md): New repository overview insights, faster commit pages, clearer session logs, and go-git v6.0.0-alpha.2.
+- [Agent Hooks: The Integration Layer Between Entire CLI and Your Agent](https://entire.io/blog/agent-hooks-the-integration-layer-between-entire-cli-and-your-agent.md): How Entire CLI uses Agent hooks and Git hooks to turn session context into versioned history.
+- [Entire Dispatch 0x0009](https://entire.io/blog/entire-dispatch-0x0009.md): Faster Checkpoints, sharper repo insights, and smoother transcript parsing for the Entire CLI and web platform.
+- [Bring Your Own Agents to Entire](https://entire.io/blog/bring-your-own-agents-to-entire.md): Build a custom plugin to connect your preferred AI agent to Entire CLI. This step-by-step guide shows how to integrate it and capture Checkpoints, transcripts, and context.
+- [Entire Dispatch 0x0008](https://entire.io/blog/entire-dispatch-0x0008.md): Repository overview page, new CLI session management commands, go-git v6 alpha, and the Checkpoint authentication token.
+- [Getting Started with Codex in the Entire CLI](https://entire.io/blog/getting-started-with-codex-in-entire-cli.md): Codex is now supported in the Entire CLI. Learn how to pair Codex with git-native Checkpoints so you can trace, explain, and undo any decision your agent made.
+- [Entire Dispatch 0x0007](https://entire.io/blog/entire-dispatch-0x0007.md): OpenAI Codex support, Kiro and Pi agent plugins, Windows compatibility, and checkpoint performance improvements.
+- [The Entire CLI: How It Works & Where It's Headed](https://entire.io/blog/the-entire-cli-how-it-works-and-where-its-headed.md): AI generated PRs are creating a massive code review bottleneck. Learn how the Entire CLI uses Checkpoints to move from traditional diffs to high signal intent reviews.
+- [Entire Dispatch 0x0006](https://entire.io/blog/entire-dispatch-0x0006.md): Large repo memory improvements, checkpoints in remote repos, agent updates, and new diagnostic tools.
+- [Entire Dispatch 0x0005](https://entire.io/blog/entire-dispatch-0x0005.md): Hack Week across Melbourne, Seattle, and Lisbon, plus a new GitHub Copilot CLI integration.
+- [Entire Dispatch 0x0004](https://entire.io/blog/entire-dispatch-0x0004.md): Factory integration, agent plugin system, faster hooks, and UI updates on entire.io.
+- [Entire Dispatch 0x0003](https://entire.io/blog/entire-dispatch-0x0003.md): Cursor IDE support, OpenCode integration, faster Checkpoints, and community contributions.
+- [Entire Dispatch 0x0002](https://entire.io/blog/entire-dispatch-0x0002.md): Agent integrations, secret detection updates, smarter hook management, and Checkpoint reliability fixes.
+- [Entire Dispatch 0x0001](https://entire.io/blog/entire-dispatch-0x0001.md): Our first weekly dispatch with updates on Checkpoints, Gemini CLI support, secret detection, and more.
+- [Hello Entire World](https://entire.io/blog/hello-entire-world.md): Announcing Entire with $60 million seed round and shipping our first product, called Checkpoints.
+
+## News
+
+- [News](https://entire.io/news.md): All published Entire news, newest first.
+- [Entire Launches Distributed Git Network for the Agent Era](https://entire.io/news/entire-launches-distributed-git-network-for-the-agent-era.md): Five months after the largest seed round in developer-tools history, Entire is reimagining version control for agent-scale development, allowing developers to mirror GitHub repositories on a fast, independent Git network built for agents.
+- [Former GitHub CEO Thomas Dohmke launches Entire with a landmark $60 million seed round to build the world's next developer platform for the era of AI.](https://entire.io/news/former-github-ceo-thomas-dohmke-raises-60-million-seed-round.md): Former GitHub CEO Thomas Dohmke launches Entire with a landmark $60 million seed round to build the world's next developer platform for the era of AI.
+
+## Optional
+
+- [Cookie Policy](https://entire.io/cookies.md): How Entire uses cookies and similar technologies.
+- [Data Processing Agreement](https://entire.io/dpa.md): How Entire processes personal data on your behalf as a processor.
+- [Privacy Policy](https://entire.io/privacy.md): How Entire collects, uses, and protects your personal information.
+- [Subprocessor List](https://entire.io/subprocessors.md): The third-party subprocessors Entire engages to process customer personal data.
+- [Terms of Service](https://entire.io/terms.md): Terms and conditions for using the Entire platform.
