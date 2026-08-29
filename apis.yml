@@ -10,6 +10,17 @@ description: >-
   detection and user-defined redaction, multi-agent parallel review, cross-agent work
   resumption, and a distributed Git mirroring network for fast, rate-limit-free clones.
 url: https://raw.githubusercontent.com/api-evangelist/entire/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: self-serve
